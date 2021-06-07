@@ -1,0 +1,809 @@
+2021-06-01 13:03:38,4172021-06-01 13:03:38,4182021-06-01 13:03:38,4182021-06-01 13:03:38,7772021-06-01 13:03:38,7782021-06-01 13:03:38,7792021-06-01 13:03:38,8142021-06-01 13:03:38,8142021-06-01 13:03:38,9332021-06-01 13:03:39,0362021-06-01 13:03:39,0412021-06-01 13:03:39,0422021-06-01 13:03:39,0432021-06-01 13:03:39,0442021-06-01 13:04:05,0052021-06-01 13:04:05,4352021-06-01 13:04:05,4352021-06-01 13:04:05,4362021-06-01 13:04:05,6642021-06-01 13:04:05,6652021-06-01 13:04:05,6662021-06-01 13:04:05,6942021-06-01 13:04:05,6942021-06-01 13:04:05,7672021-06-01 13:04:05,7822021-06-01 13:04:05,7892021-06-01 13:04:05,7902021-06-01 13:04:05,7912021-06-01 13:04:05,7922021-06-01 13:06:38,6252021-06-01 13:06:39,079 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+2021-06-01 13:06:39,115 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-01 13:06:39,115 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-01 13:06:39,373 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-06-01 13:06:39,374 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-06-01 13:06:39,375 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-01 13:06:39,435 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-06-01 13:06:39,436 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 317 ms
+2021-06-01 13:06:39,590 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-01 13:06:39,612 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-01 13:06:39,623 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.58 seconds (JVM running for 421.087)
+2021-06-01 13:06:39,625 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-06-01 13:06:39,627 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-06-01 13:06:39,628 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-01 13:07:19,932 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-29] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-01 13:07:20,282 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.flightmanagement' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.flightmanagement
+    Value: infp
+    Origin: class path resource [application.properties] - 4:36
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2021-06-01 13:10:40,400 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.flightmanagement' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.flightmanagement
+    Value: infp
+    Origin: class path resource [application.properties] - 4:36
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2021-06-01 13:11:11,520 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+2021-06-01 13:11:11,521 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-01 13:11:11,744 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-06-01 13:11:11,746 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-06-01 13:11:11,746 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-01 13:11:11,773 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-06-01 13:11:11,773 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 250 ms
+2021-06-01 13:11:11,842 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-01 13:11:11,853 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-01 13:11:11,858 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.397 seconds (JVM running for 693.322)
+2021-06-01 13:11:11,858 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-06-01 13:11:11,859 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-06-01 13:11:11,859 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-01 13:11:11,860 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+2021-06-01 13:11:11,861 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+2021-06-01 13:11:11,861 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+2021-06-01 13:11:11,861 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+2021-06-01 13:11:32,693 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-34] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-01 13:11:33,095 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+2021-06-01 13:11:33,096 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-01 13:11:33,096 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-01 13:11:33,395 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-06-01 13:11:33,396 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-06-01 13:11:33,397 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-01 13:11:33,431 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-06-01 13:11:33,431 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 333 ms
+2021-06-01 13:11:33,512 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-01 13:11:33,527 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-01 13:11:33,532 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.469 seconds (JVM running for 714.996)
+2021-06-01 13:11:33,533 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-06-01 13:11:33,534 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-06-01 13:11:33,534 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-01 13:11:33,535 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+2021-06-01 13:11:33,535 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+2021-06-01 13:11:33,536 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+2021-06-01 13:11:33,536 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+2021-06-01 13:11:33,536 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+2021-06-01 13:11:33,536 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+2021-06-01 13:11:33,536 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+2021-06-01 13:11:33,536 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+2021-06-01 13:11:33,536 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+2021-06-01 13:11:33,536 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+2021-06-01 13:11:33,536 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+2021-06-01 13:11:33,536 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+2021-06-01 13:11:33,536 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+2021-06-01 13:11:33,536 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+2021-06-01 14:00:41,650 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-43] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-01 14:00:42,066 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+2021-06-01 14:00:42,066 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-01 14:00:42,067 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-01 14:00:42,298 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-06-01 14:00:42,299 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-06-01 14:00:42,300 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-01 14:00:42,314 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-06-01 14:00:42,314 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 241 ms
+2021-06-01 14:00:42,377 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-01 14:00:42,384 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-01 14:00:42,387 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.364 seconds (JVM running for 3663.851)
+2021-06-01 14:00:42,388 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-06-01 14:00:42,388 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-06-01 14:00:42,388 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-01 14:00:42,389 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+2021-06-01 14:00:42,389 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+2021-06-01 14:00:42,389 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+2021-06-01 14:00:42,390 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+2021-06-01 14:00:42,390 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+2021-06-01 14:00:42,390 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+2021-06-01 14:00:42,390 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+2021-06-01 14:00:42,390 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+2021-06-01 14:00:42,390 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+2021-06-01 14:00:42,390 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+2021-06-01 14:00:42,390 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+2021-06-01 14:00:42,390 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+2021-06-01 14:00:42,390 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+2021-06-01 14:00:42,390 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+2021-06-01 14:01:01,089 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-48] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-01 14:01:01,222 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+2021-06-01 14:01:01,222 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-01 14:01:01,222 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-01 14:01:01,327 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-06-01 14:01:01,328 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-06-01 14:01:01,328 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-01 14:01:01,340 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-06-01 14:01:01,341 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 117 ms
+2021-06-01 14:01:01,373 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-01 14:01:01,380 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-01 14:01:01,382 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.179 seconds (JVM running for 3682.846)
+2021-06-01 14:01:01,382 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-06-01 14:01:01,383 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-06-01 14:01:01,383 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-01 14:01:01,383 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+2021-06-01 14:01:01,383 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+2021-06-01 14:01:01,383 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+2021-06-01 14:01:01,384 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+2021-06-01 14:01:01,384 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+2021-06-01 14:01:01,384 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+2021-06-01 14:01:01,384 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+2021-06-01 14:01:01,384 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+2021-06-01 14:01:01,384 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+2021-06-01 14:01:01,384 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+2021-06-01 14:01:01,384 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+2021-06-01 14:01:01,384 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+2021-06-01 14:01:01,384 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+2021-06-01 14:01:01,384 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+2021-06-01 14:02:38,249 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-53] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+210601|14:02:38.363 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+210601|14:02:38.363 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+210601|14:02:38.363 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+210601|14:02:38.467 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+210601|14:02:38.468 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+210601|14:02:38.468 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+210601|14:02:38.480 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+210601|14:02:38.480 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 115 ms
+210601|14:02:38.514 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+210601|14:02:38.521 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+210601|14:02:38.523 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.182 seconds (JVM running for 3779.987)
+210601|14:02:38.523 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+210601|14:02:38.524 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+210601|14:02:38.524 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+210601|14:02:38.524 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+210601|14:02:38.525 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+210601|14:02:38.525 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+210601|14:02:38.525 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+210601|14:02:38.525 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+210601|14:02:38.525 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+210601|14:04:33.621 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-58] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+02:04:33 01062021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:04:33 01062021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+02:04:33 01062021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+02:04:33 01062021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+02:04:33 01062021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+02:04:33 01062021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+02:04:33 01062021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 164 ms
+02:04:33 01062021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+02:04:33 01062021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+02:04:33 01062021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.23 seconds (JVM running for 3895.425)
+02:04:33 01062021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+02:04:33 01062021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+02:04:33 01062021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:04:33 01062021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+02:04:33 01062021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:04:33 01062021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+02:04:33 01062021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:04:33 01062021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:05:01 01062021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-63] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+02:05:01 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+02:05:01 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:05:01 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+02:05:02 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+02:05:02 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+02:05:02 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+02:05:02 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+02:05:02 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 139 ms
+02:05:02 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+02:05:02 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+02:05:02 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.2 seconds (JVM running for 3923.541)
+02:05:02 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+02:05:02 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+02:05:02 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:05:02 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+02:05:02 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:05:02 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+02:05:02 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:05:02 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:05:25 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-68] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+1PM2021 02:05:25 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+1PM2021 02:05:25 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+1PM2021 02:05:25 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+1PM2021 02:05:26 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+1PM2021 02:05:26 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+1PM2021 02:05:26 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+1PM2021 02:05:26 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+1PM2021 02:05:26 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 118 ms
+1PM2021 02:05:26 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+1PM2021 02:05:26 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+1PM2021 02:05:26 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.178 seconds (JVM running for 3947.538)
+1PM2021 02:05:26 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+1PM2021 02:05:26 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+1PM2021 02:05:26 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+1PM2021 02:05:26 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+1PM2021 02:05:26 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+1PM2021 02:05:26 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+1PM2021 02:05:26 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+1PM2021 02:05:26 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+1PM2021 02:06:18 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-73] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+1 02:06:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+1 02:06:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+1 02:06:18 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+1 02:06:18 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+1 02:06:18 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+1 02:06:18 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+1 02:06:18 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 111 ms
+1 02:06:18 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+1 02:06:18 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+1 02:06:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.175 seconds (JVM running for 3999.94)
+1 02:06:18 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+1 02:06:18 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+1 02:06:18 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+1 02:06:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+1 02:06:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+1 02:06:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+1 02:06:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+1 02:06:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+1 02:08:31 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-78] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+152 02:08:31 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+152 02:08:31 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+152 02:08:31 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+152 02:08:31 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+152 02:08:31 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+152 02:08:31 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+152 02:08:31 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+152 02:08:31 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 119 ms
+152 02:08:32 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+152 02:08:32 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+152 02:08:32 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.182 seconds (JVM running for 4133.486)
+152 02:08:32 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+152 02:08:32 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+152 02:08:32 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+152 02:08:32 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+152 02:08:32 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+152 02:08:32 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+152 02:08:32 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+152 02:08:32 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+152 02:08:45 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-83] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+152 02:08:45 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+152 02:08:45 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+152 02:08:45 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+152 02:08:45 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+152 02:08:45 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+152 02:08:45 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+152 02:08:45 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 119 ms
+152 02:08:45 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+152 02:08:45 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+152 02:08:45 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.178 seconds (JVM running for 4147.35)
+152 02:08:45 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+152 02:08:45 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+152 02:08:45 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+152 02:08:45 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+152 02:08:45 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+152 02:08:45 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+152 02:08:45 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+152 02:08:45 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+152 02:18:45 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-88] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+02:18:46 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:18:46 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+02:18:46 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+02:18:46 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+02:18:46 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+02:18:46 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+02:18:46 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 147 ms
+02:18:46 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+02:18:46 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+02:18:46 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.206 seconds (JVM running for 4747.717)
+02:18:46 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+02:18:46 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+02:18:46 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:18:46 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+02:18:46 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:18:46 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+02:18:46 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:18:46 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:21:31 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-93] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+02:21:31 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+02:21:31 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:21:31 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+02:21:31 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+02:21:31 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+02:21:31 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+02:21:31 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+02:21:31 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 131 ms
+02:21:31 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+02:21:31 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+02:21:31 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.204 seconds (JVM running for 4913.361)
+02:21:31 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+02:21:31 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+02:21:31 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+02:21:33 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-98] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+02:21:33 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:21:33 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+02:21:33 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+02:21:33 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+02:21:33 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+02:21:33 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+02:21:33 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 114 ms
+02:21:33 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+02:21:33 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+02:21:33 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.18 seconds (JVM running for 4915.11)
+02:21:33 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+02:21:33 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+02:21:33 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:21:33 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+02:21:33 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:21:33 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+02:21:33 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:21:33 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:21:42 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Starting FlightManagementApplicationTests using Java 15.0.2 on Rishikesh with PID 3436 (started by Rishikesh in V:\Java\flightManagement)
+02:21:42 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplicationTests [main] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:21:42 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] No active profile set, falling back to default profiles: default
+02:21:43 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Started FlightManagementApplicationTests in 1.603 seconds (JVM running for 2.446)
+02:21:43 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+02:21:43 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+02:31:21 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-103] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+02:31:21 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 27184 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+02:31:21 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:31:21 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+02:31:21 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+02:31:21 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+02:31:21 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+02:31:21 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+02:31:21 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 145 ms
+02:31:21 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+02:31:21 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+02:31:21 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.269 seconds (JVM running for 5503.463)
+02:31:21 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+02:31:22 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+02:31:22 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:31:22 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+02:31:22 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+02:31:22 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+02:31:22 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+02:31:22 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+02:31:30 01/06/2021 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(96)-127.0.0.1] Application shutdown requested.
+02:31:30 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [RMI TCP Connection(96)-127.0.0.1] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+02:31:55 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Starting FlightManagementApplicationTests using Java 15.0.2 on Rishikesh with PID 23468 (started by Rishikesh in V:\Java\flightManagement)
+02:31:55 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplicationTests [main] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:31:55 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] No active profile set, falling back to default profiles: default
+02:31:57 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Started FlightManagementApplicationTests in 1.575 seconds (JVM running for 2.401)
+02:31:57 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+02:31:57 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+02:46:19 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Starting FlightManagementApplicationTests using Java 15.0.2 on Rishikesh with PID 13992 (started by Rishikesh in V:\Java\flightManagement)
+02:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplicationTests [main] Running with Spring Boot v2.5.0, Spring v5.3.7
+02:46:19 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] No active profile set, falling back to default profiles: default
+02:46:20 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Started FlightManagementApplicationTests in 1.602 seconds (JVM running for 2.391)
+02:46:20 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+02:46:20 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+03:27:57 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Starting FlightManagementApplicationTests using Java 15.0.2 on Rishikesh with PID 29864 (started by Rishikesh in V:\Java\flightManagement)
+03:27:57 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplicationTests [main] Running with Spring Boot v2.5.0, Spring v5.3.7
+03:27:57 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] No active profile set, falling back to default profiles: default
+03:27:59 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Started FlightManagementApplicationTests in 3.316 seconds (JVM running for 5.518)
+03:27:59 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+03:27:59 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+03:37:14 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Starting FlightManagementApplicationTests using Java 15.0.2 on Rishikesh with PID 22744 (started by Rishikesh in V:\Java\flightManagement)
+03:37:14 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplicationTests [main] Running with Spring Boot v2.5.0, Spring v5.3.7
+03:37:14 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] No active profile set, falling back to default profiles: default
+03:37:17 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Started FlightManagementApplicationTests in 3.288 seconds (JVM running for 5.19)
+03:37:17 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+03:37:17 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+03:45:03 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 28500 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+03:45:03 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+03:45:03 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+03:45:03 01/06/2021 [INFO] org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\Rishikesh\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar referenced one or more files that do not exist: file:/C:/Users/Rishikesh/.m2/repository/xalan/xalan/2.7.1/xercesImpl.jar,file:/C:/Users/Rishikesh/.m2/repository/xalan/xalan/2.7.1/xml-apis.jar,file:/C:/Users/Rishikesh/.m2/repository/xalan/xalan/2.7.1/serializer.jar
+03:45:03 01/06/2021 [INFO] org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\Rishikesh\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar referenced one or more files that do not exist: file:/C:/Users/Rishikesh/.m2/repository/xalan/serializer/2.7.1/xml-apis.jar
+03:45:03 01/06/2021 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+03:45:03 01/06/2021 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+03:45:06 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+03:45:06 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+03:45:06 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+03:45:06 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+03:45:06 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2595 ms
+03:45:07 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+03:45:07 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+03:45:07 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 4.869 seconds (JVM running for 7.366)
+03:45:07 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+03:45:07 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+03:45:07 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+03:45:07 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+03:45:07 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+03:45:07 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+03:45:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+03:45:35 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 30484 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+03:45:35 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+03:45:35 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+03:45:35 01/06/2021 [INFO] org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\Rishikesh\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar referenced one or more files that do not exist: file:/C:/Users/Rishikesh/.m2/repository/xalan/xalan/2.7.1/xercesImpl.jar,file:/C:/Users/Rishikesh/.m2/repository/xalan/xalan/2.7.1/xml-apis.jar,file:/C:/Users/Rishikesh/.m2/repository/xalan/xalan/2.7.1/serializer.jar
+03:45:35 01/06/2021 [INFO] org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\Rishikesh\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar referenced one or more files that do not exist: file:/C:/Users/Rishikesh/.m2/repository/xalan/serializer/2.7.1/xml-apis.jar
+03:45:35 01/06/2021 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+03:45:35 01/06/2021 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+03:45:37 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+03:45:37 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+03:45:37 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+03:45:38 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+03:45:38 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2226 ms
+03:45:38 01/06/2021 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+03:45:38 01/06/2021 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+03:45:38 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+03:45:38 01/06/2021 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03:45:38 01/06/2021 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+03:46:13 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-6] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+03:46:13 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 28500 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+03:46:13 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+03:46:13 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+03:46:14 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+03:46:14 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+03:46:14 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+03:46:14 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+03:46:14 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 444 ms
+03:46:14 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+03:46:14 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+03:46:14 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.669 seconds (JVM running for 74.043)
+03:46:14 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+03:46:14 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+03:46:14 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+03:46:18 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-9] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+03:46:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 28500 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+03:46:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+03:46:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+03:46:18 01/06/2021 [INFO] org.apache.catalina.core.StandardService [Thread-9] Stopping service [Tomcat]
+03:46:18 01/06/2021 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+03:46:18 01/06/2021 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+03:46:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 28500 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+03:46:18 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+03:46:18 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+03:46:18 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+03:46:18 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+03:46:18 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+03:46:18 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+03:46:18 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 583 ms
+03:46:19 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+03:46:19 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+03:46:19 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+03:46:19 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+03:46:19 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+03:46:19 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.861 seconds (JVM running for 78.766)
+03:46:19 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+03:46:19 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+03:46:19 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+03:46:19 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+03:46:19 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+03:46:19 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+03:46:19 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+03:46:19 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+03:46:19 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+03:46:19 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 490 ms
+03:46:19 01/06/2021 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+03:46:19 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+03:46:19 01/06/2021 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03:46:19 01/06/2021 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325) ~[spring-boot-2.5.0.jar:2.5.0]
+	at com.flightManagement.FlightManagementApplication.main(FlightManagementApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.0.jar:2.5.0]
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 21 common frames omitted
+03:46:23 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Starting FlightManagementApplicationTests using Java 15.0.2 on Rishikesh with PID 27608 (started by Rishikesh in V:\Java\flightManagement)
+03:46:23 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplicationTests [main] Running with Spring Boot v2.5.0, Spring v5.3.7
+03:46:23 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] No active profile set, falling back to default profiles: default
+03:46:25 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Started FlightManagementApplicationTests in 2.803 seconds (JVM running for 4.681)
+03:46:25 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+03:46:25 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+04:10:07 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 28500 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+04:10:07 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+04:10:07 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+04:10:07 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+04:10:07 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+04:10:07 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+04:10:07 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+04:10:07 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 655 ms
+04:10:07 01/06/2021 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+04:10:07 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+04:10:07 01/06/2021 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+04:10:07 01/06/2021 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325) ~[spring-boot-2.5.0.jar:2.5.0]
+	at com.flightManagement.FlightManagementApplication.main(FlightManagementApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.0.jar:2.5.0]
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 21 common frames omitted
+04:10:10 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [Thread-15] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+04:10:10 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 28500 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+04:10:10 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+04:10:10 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+04:10:10 01/06/2021 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04:10:10 01/06/2021 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04:10:10 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Starting FlightManagementApplication using Java 11.0.10 on Rishikesh with PID 28500 (V:\Java\flightManagement\target\classes started by Rishikesh in V:\Java\flightManagement)
+04:10:10 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Running with Spring Boot v2.5.0, Spring v5.3.7
+04:10:10 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] No active profile set, falling back to default profiles: default
+04:10:11 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+04:10:11 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+04:10:11 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+04:10:11 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+04:10:11 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+04:10:11 01/06/2021 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+04:10:11 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+04:10:11 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 547 ms
+04:10:11 01/06/2021 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+04:10:11 01/06/2021 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 505 ms
+04:10:11 01/06/2021 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+04:10:11 01/06/2021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+04:10:11 01/06/2021 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+04:10:11 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+04:10:11 01/06/2021 [ERROR] org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325) ~[spring-boot-2.5.0.jar:2.5.0]
+	at com.flightManagement.FlightManagementApplication.main(FlightManagementApplication.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.0.jar:2.5.0]
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 21 common frames omitted
+04:10:11 01/06/2021 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+04:10:11 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Started FlightManagementApplication in 0.735 seconds (JVM running for 1511.097)
+04:10:11 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+04:10:11 01/06/2021 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+04:10:11 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+04:10:11 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding vip passengers
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true)])
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true)])
+04:10:11 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Adding non vip passengers
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Jerry, vip=true), Passenger(name=Tom, vip=false)])
+04:10:11 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing vip passengers
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[Passenger(name=Tom, vip=false)])
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[Passenger(name=Tom, vip=false)])
+04:10:11 01/06/2021 [INFO] com.flightManagement.FlightManagementApplication [restartedMain] Removing non vip passengers
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=1, flightType=Economy, passengers=[])
+04:10:11 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplication [restartedMain] Flight(id=2, flightType=Bussiness, passengers=[])
+04:10:29 01/06/2021 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(27)-127.0.0.1] Application shutdown requested.
+04:10:29 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [RMI TCP Connection(27)-127.0.0.1] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+04:27:09 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Starting FlightManagementApplicationTests using Java 15.0.2 on Rishikesh with PID 16456 (started by Rishikesh in V:\Java\flightManagement)
+04:27:09 01/06/2021 [DEBUG] com.flightManagement.FlightManagementApplicationTests [main] Running with Spring Boot v2.5.0, Spring v5.3.7
+04:27:09 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] No active profile set, falling back to default profiles: default
+04:27:11 01/06/2021 [INFO] com.flightManagement.FlightManagementApplicationTests [main] Started FlightManagementApplicationTests in 2.967 seconds (JVM running for 4.947)
+04:27:11 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+04:27:11 01/06/2021 [INFO] org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
